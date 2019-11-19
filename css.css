@@ -1,0 +1,255 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #34495e;
+}
+h2{
+    color: white;
+}
+.slidershow{
+    width:100%;
+    height:600px;
+    overflow:hidden;
+}
+.middle{
+    position:absolute;
+    top:0%;
+    left:0%;
+}
+.navigation{
+    position:absolute;
+    bottom: 20px;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+}
+.bar{
+    width:70px;
+    height:10px;
+    border:2px solid #fff;
+    margin:6px;
+    cursor:pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+input[name="r"]{
+    position:absolute;
+    visibility:hidden;
+}
+.slides{
+    width:500%;
+    height:100%;
+    display:flex;
+}
+.slide{
+    width:20%;
+    transition:0.6s;
+}
+.slide img{
+    position:absolute;
+    top:12%;
+    width:100%;
+    height:100%;
+}
+#r1:checked~.s1{
+    margin-left: 0;
+}
+#r2:checked~.s1{
+    margin-left: -20%;
+}
+#r3:checked~.s1{
+    margin-left: -40%;
+}
+#r4:checked~.s1{
+    margin-left: -60%;
+}
+#title{
+    background-color:#34495e;
+    position: absolute;
+    top:0%;
+    width:100%;
+    height:75px;
+    padding-top:10px;
+    padding-left: 10px;
+}
+#title h2{
+    float:left;
+}
+#title img{
+    float:left;
+}
+#title ul{
+    position:absolute;
+    right:10px;
+    list-style-type:none;
+    margin:5px;
+    padding:0px;
+    padding-top:12px;
+    padding-bottom:3px;
+}
+#title li
+{
+    display:inline;
+    float:bottom;
+    font-size:20px;
+    font-family: 新宋体;
+}
+#title a:link,a:visited
+{
+    font-weight:bold;
+    color:white;
+    background-color:#34495e;
+    text-align:center;
+    padding: 25px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+#title a:hover,a:active
+{
+    color:black;
+    background-color:#34495e;
+}
+.content{ position: absolute;
+    top:700px;
+    color:white;
+    width:100%;
+    heidht:200px;
+   }
+.content header{
+    font-weight:900;
+    font-size:30px;
+    text-align:center;
+    padding:5px;
+    font-family: 仿宋;
+    font-weight:900;
+
+}
+.content2{
+    font-weight:400;
+    font-size:25px;
+    line-height:60px;
+    height:100px;
+    margin-left: 10%;
+    margin-right:10%;
+    color:white;
+    font-family: 新宋体;
+    width:80%;
+    background-color:#34495e;
+}
+.content2 a:link,a:visited
+{
+    font-weight:bold;
+    color:white;
+    background-color:#34495e;
+    text-align:center;
+    padding: 5px;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin-left: 25px;
+}
+.content2 a:hover,a:active
+{
+    color:black;
+    background-color:#34495e;
+}
+.content3{
+    font-weight:400;
+    font-size:25px;
+    line-height:20px;
+    font-family: "Yu Gothic UI Semilight";
+    width:80%;
+    color:white;
+    height:1000px;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color:#34495e;
+}
+.d1{
+    height:500px;
+    padding: 20px;
+}
+.d2{
+    height:500px;
+    padding: 20px;
+}
+.d3{
+    height:500px;
+    padding: 20px;
+}
+.d4{
+    height:500px;
+    padding: 40px;
+}
+.d5{
+    height:200px;
+}
+.text1{
+    position:absolute;
+    top:15%;
+    left:45%;
+    font-weight:400;
+    font-size:25px;
+    line-height:50px;
+    font-family: 楷体;
+    width:40%;
+    color:white;
+
+}
+.text2{
+    position:absolute;
+    top:60%;
+    left:45%;
+    font-weight:400;
+    font-size:25px;
+    line-height:50px;
+    font-family: 楷体;
+    width:40%;
+    color:white;
+
+}
+.text3{
+    position:absolute;
+    top:105%;
+    left:45%;
+    font-weight:400;
+    font-size:25px;
+    line-height:50px;
+    font-family: 楷体;
+    width:40%;
+    color:white;
+
+}
+.text4{
+    position:absolute;
+    top:155%;
+    left:45%;
+    font-weight:400;
+    font-size:25px;
+    line-height:50px;
+    font-family: 楷体;
+    width:40%;
+    color:white;
+
+}.text5{
+     position:absolute;
+     top:205%;
+     left:15%;
+     font-weight:200;
+     font-size:25px;
+     line-height:10px;
+     font-family: 仿宋;
+     width:70%;
+     color:white;
+
+ }
+ .footer{
+     width:100%;
+     background-color: lightgray;
+     height:60px;
+     position:absolute;
+     top:440%;
+     text-align: center;
+ }
+
