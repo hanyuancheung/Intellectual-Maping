@@ -24,8 +24,8 @@ h2{
     display:flex;
 }
 .bar{
-    width:70px;
-    height:10px;
+    width:20px;
+    height:20px;
     border:2px solid #fff;
     margin:6px;
     cursor:pointer;
